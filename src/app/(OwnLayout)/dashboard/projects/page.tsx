@@ -1,7 +1,9 @@
+import ProjectsFetch from "@/components/Project/project";
+
 export default function ProjectsPage() {
   return (
     <div>
-      <h1>This is ProjectsPage Page</h1>
+      <ProjectsFetch />
     </div>
   );
 }
